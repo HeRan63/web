@@ -1,0 +1,92 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header, .content, .sider {
+  height: 100%;
+}
+.layout {
+  width: 100%; /* 确保布局占满宽度 */
+  margin: 0; /* 移除外边距 */
+  min-height: 100vh; /* 确保布局占满屏幕高度 */
+}
+
+.header {
+  background: #f0f2f5; /* 设置浅色背景 */
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  width: 100%;
+}
+
+.header .header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header .ant-input {
+  background-color: #e6f7ff; /* 设置输入框背景颜色 */
+}
+
+.header .ant-btn {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: white;
+}
+
+.header .ant-btn:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.header .ant-btn:focus {
+  background-color: #096dd9;
+  border-color: #096dd9;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px;
+  width: 100%; /* 确保内容区占满宽度 */
+}
+
+.circle-list {
+  flex-grow: 1; /* 确保圈子列表占据剩余空间 */
+  background: #fff;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 24px;
+}
+
+.circle-menu-item {
+  background: #fff; /* 设置圈子菜单项背景为白色 */
+}
+
+.circle-menu-item a {
+  color: inherit; /* 保持链接颜色一致 */
+}
+
+.sider {
+  background: #fff;
+  flex: 0 0 300px; /* 固定宽度 */
+}
+
+.sider-content {
+  padding: 24px;
+  background: #fff; /* 设置sider-content背景颜色 */
+}
+
+/* 设置 h1 标题样式 */
+h1 {
+  font-size: 2.5em; /* 调整字体大小 */
+  color: #255c8f; /* 设置字体颜色 */
+  text-align: center; /* 居中对齐 */
+  margin-bottom: 24px; /* 调整底部边距 */
+}

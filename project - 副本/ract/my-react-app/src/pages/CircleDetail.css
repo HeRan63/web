@@ -1,0 +1,56 @@
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .circle-detail-layout {
+    min-height: 100vh;
+    background: #f0f2f5; /* 设置背景颜色 */
+    padding: 24px;
+  }
+  
+  .content1 {
+    max-width: 800px; /* 设置最大宽度 */
+    margin: 0 auto; /* 居中对齐 */
+    background: #fff;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* 设置圆角 */
+  }
+  
+  .post-container {
+    background: #ffffff;
+    width:500px;
+    
+    margin-bottom: 24px;
+  }
+  
+  .circle-detail-post-card {
+    width: 100%; 
+    background: #824d4d;
+    margin-bottom: 24px;
+  }
+  
+  .circle-detail-comment-list {
+    margin-top: 16px;
+    background: #a97575;
+    padding-left: 24px; /* 缩进评论 */
+  }
+  
+  .circle-detail-comment-form {
+    margin-top: 16px;
+  }
+  
+  .circle-detail-post-form-container {
+    margin-top: 24px;
+  }
+  h1 {
+    font-size: 2.5em; /* 调整字体大小 */
+    color: #255c8f; /* 设置字体颜色 */
+    text-align: center; /* 居中对齐 */
+    margin-bottom: 24px; /* 调整底部边距 */
+  }
+  
